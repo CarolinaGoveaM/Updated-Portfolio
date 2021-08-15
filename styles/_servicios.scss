@@ -1,0 +1,62 @@
+// S E R V I C I O S  M A I N
+
+.main__servicios {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  .title__servicios {
+    margin-bottom: 15px;
+    font-weight: $textnegrita;
+    text-align: center;
+    font-family: $textfuente;
+    animation-name: animacionh2mainservicios;
+    animation-duration: 1s;
+  }
+  @keyframes animacionh2mainservicios {
+    0% {
+      transform: translateY(-60px);
+    }
+  }
+  .title__servicios:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  p {
+    font-weight: $textnegrita;
+    margin: auto;
+    text-align: center;
+    font-family: $textfuente;
+    animation-name: animacionpmainservicios;
+    animation-duration: 2s;
+  }
+  @keyframes animacionpmainservicios {
+    0% {
+      transform: translateX(250px);
+    }
+  }
+}
+
+// S E R V I C I O S  S E C T I O N
+
+.section__servicios {
+  margin-top: 30px;
+  .card {
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+    transition: 1s;
+    h5 {
+      font-weight: $textnegrita;
+    }
+  }
+  .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  .card1__section--servicios,
+  .card3__section--servicios {
+    background-color: rgb(212, 240, 247);
+  }
+  .card2__section--servicios,
+  .card4__section--servicios {
+    background-color: rgb(247, 235, 244);
+  }
+}

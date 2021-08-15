@@ -1,0 +1,39 @@
+//M E N U
+
+.header {
+  .title__header {
+    color: $textcolor;
+    font-weight: $textnegrita;
+    line-height: 0;
+  }
+  .title__header--index {
+    animation-name: animacionh1index;
+    animation-duration: 1s;
+  }
+  @keyframes animacionh1index {
+    0% {
+      transform: translate(150px);
+    }
+  }
+  p {
+    font-size: 1rem;
+    color: rgb(73, 145, 161);
+    text-align: center;
+  }
+  .parrafo__header--index {
+    animation-name: animacionpindex;
+    animation-duration: 2s;
+  }
+  @keyframes animacionpindex {
+    0% {
+      transform: translate(150px);
+    }
+  }
+  .link__color {
+    color: $textcolor;
+  }
+  .link__color:hover {
+    color: $textcolorblue;
+    text-decoration: underline;
+  }
+}

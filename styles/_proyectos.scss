@@ -1,0 +1,63 @@
+// P R O Y E C T O S  M A I N
+
+.main__proyectos {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  .title__proyectos {
+    text-align: center;
+    font-weight: $textnegrita;
+    margin-bottom: 10px;
+    font-family: $textfuente;
+    animation-name: animacionh2mainproyectos;
+    animation-duration: 1s;
+  }
+  @keyframes animacionh2mainproyectos {
+    0% {
+      transform: translateY(-60px);
+    }
+  }
+  .title__proyectos:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  p {
+    margin: auto;
+    font-weight: $textnegrita;
+    text-align: center;
+    font-family: $textfuente;
+    animation-name: animacionpmainproyectos;
+    animation-duration: 2s;
+  }
+  @keyframes animacionpmainproyectos {
+    0% {
+      transform: translateX(-150px);
+    }
+  }
+}
+
+// P R O Y E C T O S  S E C T I O N
+
+.section__proyectos {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  .card {
+    text-align: center;
+    margin-bottom: 15px;
+    transition: 1s;
+    box-shadow: 5px 5px 10px black;
+    .card-title {
+      font-weight: $textnegrita;
+    }
+  }
+  .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  .card1__section--proyectos,
+  .card3__section--proyectos {
+    background-color: rgb(212, 240, 247);
+  }
+  .card2__section--proyectos,
+  .card4__section--proyectos {
+    background-color: rgb(247, 235, 244);
+  }
+}

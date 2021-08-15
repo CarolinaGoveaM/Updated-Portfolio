@@ -1,0 +1,19 @@
+// MA I N  P A G I N A  404
+
+.main__404 {
+  text-align: center;
+  color: $bgcolor;
+  margin-top: 44px;
+  font-weight: $textnegrita;
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.footer__404 {
+  margin-top: 24vh;
+}

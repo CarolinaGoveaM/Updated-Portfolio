@@ -1,0 +1,38 @@
+// F O O T E R
+
+.footer {
+  background-color: $bgcolor;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  .footer__contenedor {
+    text-align: center;
+  }
+  .title__footer {
+    color: $textcolor;
+  }
+  a {
+    text-decoration: none;
+    color: $textcolorblue;
+    span {
+      color: $textcolor;
+    }
+  }
+  a:hover {
+    color: $textcolor;
+  }
+  span:hover {
+    color: $textcolorblue;
+  }
+  p {
+    color: $textcolorblue;
+  }
+  .imagen__ws, .imagen__mail, .imagen__linkedin, .imagen__github {
+    @include sizes(20px, 20px);
+  }
+  .copyright{
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    font-size: 0.8rem;
+  }
+}
