@@ -1,17 +1,11 @@
-// C O N T A C T O  M A I N
+// C O N T A C T O   S E C T I O N
 
-.main__contacto {
+.section__contacto {
+  margin-top: 35px;
   .title__contacto {
     text-align: center;
     font-weight: $textnegrita;
     font-family: $textfuente;
-    animation-name: animacionh2maincontacto;
-    animation-duration: 2s;
-  }
-  @keyframes animacionh2maincontacto {
-    0% {
-      transform: translateX(450px);
-    }
   }
   .title__contacto:hover {
     color: black;
@@ -22,25 +16,9 @@
     color: black;
     font-family: $textfuente;
     font-weight: $textnegrita;
-    animation-name: animacionamaincontacto;
-    animation-duration: 3s;
-  }
-  @keyframes animacionamaincontacto {
-    0% {
-      transform: translateX(-450px);
-    }
   }
   a:hover {
     color: rgb(73, 145, 161);
-  }
-  img {
-    animation-name: animacionimgmaincontacto;
-    animation-duration: 3s;
-  }
-  @keyframes animacionimgmaincontacto {
-    0% {
-      transform: translateX(-450px);
-    }
   }
   .imagen__ws {
     @include sizes(20px, 20px);
@@ -65,29 +43,5 @@
     position: absolute;
     margin-top: 70px;
     margin-left: -40px;
-  }
-}
-
-// C O N T A C T O  F O R M U L A R I O
-
-.formulario__contacto {
-  label {
-    font-weight: $textnegrita;
-  }
-  label:hover {
-    font-weight: $textnegrita;
-    color: rgb(73, 145, 161);
-  }
-  p {
-    font-weight: $textnegrita;
-  }
-  p:hover {
-    color: rgb(73, 145, 161);
-  }
-  .form-check-label {
-    transition: all 1s;
-  }
-  .contacto__botom {
-    margin-left: 40vw;
   }
 }

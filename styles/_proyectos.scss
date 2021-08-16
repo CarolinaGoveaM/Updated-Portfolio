@@ -1,20 +1,12 @@
-// P R O Y E C T O S  M A I N
+// P R O Y E C T O S  S E C T I O N
 
-.main__proyectos {
-  margin-top: 25px;
-  margin-bottom: 25px;
+.section__proyectos {
+  margin-top: 35px;
   .title__proyectos {
     text-align: center;
     font-weight: $textnegrita;
     margin-bottom: 10px;
     font-family: $textfuente;
-    animation-name: animacionh2mainproyectos;
-    animation-duration: 1s;
-  }
-  @keyframes animacionh2mainproyectos {
-    0% {
-      transform: translateY(-60px);
-    }
   }
   .title__proyectos:hover {
     color: black;
@@ -25,20 +17,13 @@
     font-weight: $textnegrita;
     text-align: center;
     font-family: $textfuente;
-    animation-name: animacionpmainproyectos;
-    animation-duration: 2s;
-  }
-  @keyframes animacionpmainproyectos {
-    0% {
-      transform: translateX(-150px);
-    }
   }
 }
 
-// P R O Y E C T O S  S E C T I O N
+// P R O Y E C T O S  S E C T I O N  C A R D
 
-.section__proyectos {
-  margin-top: 25px;
+.section__proyectos--card {
+  margin-top: 35px;
   margin-bottom: 25px;
   .card {
     text-align: center;

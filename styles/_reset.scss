@@ -1,9 +1,10 @@
 // U N I V E R S A L
 
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 // B O D Y
 
@@ -13,5 +14,6 @@ body {
     90deg,
     rgba(249, 213, 239, 1) 41%,
     rgba(244, 215, 242, 1) 47%,
-    rgba(201, 234, 241, 1) 65%);
+    rgba(201, 234, 241, 1) 65%
+  );
 }

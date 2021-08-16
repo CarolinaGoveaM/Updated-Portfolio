@@ -1,57 +1,56 @@
-// S O B R E  M I  M A I N
+// M A I N  S O B R E  M I
 
 .main__sobremi {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 50px;
   img {
-    animation-name: animacionimgmainsobremi;
-    animation-duration: 1s;
     transition: 1s;
+    animation-name: animacionimgmainindex;
+    animation-duration: 1s;
     box-shadow: 10px 10px 15px black;
     border: 2px solid black;
   }
-  @keyframes animacionimgmainsobremi {
+  @keyframes animacionimgmainindex {
     0% {
-      transform: translate(-130px);
+      transform: translate(-120px);
     }
   }
   img:hover {
     transform: scale(1.1, 1.1);
   }
-  .title__primer--sobremi {
-    text-align: center;
+  .title__sobremi {
     font-weight: $textnegrita;
-    margin-bottom: 15px;
-    margin-top: 35px;
     font-family: $textfuente;
+    margin-top: 30px;
     animation-name: animacionh2mainsobremi;
     animation-duration: 1s;
+    text-align: center;
   }
   @keyframes animacionh2mainsobremi {
     0% {
-      transform: translateY(-50px);
+      transform: translate(120px);
     }
   }
-  .title__primer--sobremi:hover {
+  .title__sobremi:hover {
     color: black;
     text-decoration: underline;
   }
   p {
-    margin: auto;
     font-weight: $textnegrita;
-    text-align: center;
     font-family: $textfuente;
+    text-align: center;
     animation-name: animacionpmainsobremi;
-    animation-duration: 2s;
+    animation-duration: 1s;
   }
   @keyframes animacionpmainsobremi {
     0% {
-      transform: translate(150px);
+      transform: translate(120px);
     }
   }
   .link__curriculo {
     text-align: center;
     margin-top: 10px;
+    animation-name: animacionamainsobremi;
+    animation-duration: 3s;
     a {
       color: black;
       font-weight: $textnegrita;
@@ -59,47 +58,13 @@
       text-decoration: none;
       font-size: 1.2rem;
     }
+    @keyframes animacionamainsobremi {
+      0% {
+        transform: translate(120px);
+      }
+    }
     a:hover {
       text-decoration: underline;
     }
-  }
-}
-
-// S O B R E  M I  S E C T I O N
-
-.section__sobremi {
-  margin-bottom: 15px;
-  .title__secundario--sobremi {
-    text-align: center;
-    font-weight: $textnegrita;
-    font-family: $textfuente;
-    animation-name: animacionh2mainsobremi;
-    animation-duration: 2s;
-  }
-  @keyframes animacionh2mainsobremi {
-    0% {
-      transform: translate(200px);
-    }
-  }
-  .title__secundario--sobremi:hover {
-    color: black;
-    text-decoration: underline;
-  }
-  img {
-    @include sizes(100px, 100px);
-    text-align: center;
-    margin: 5px;
-  }
-  img:hover {
-    animation-name: animacionimgsectionsobremi;
-    animation-duration: 3s;
-  }
-  @keyframes animacionimgsectionsobremi {
-    0% {
-      transform: rotateZ(90deg);
-    }
-  }
-  .row {
-    text-align: center;
   }
 }

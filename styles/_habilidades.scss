@@ -1,0 +1,31 @@
+// S E C T I O N  H A B I L I D A D E S
+
+.section__habilidades {
+  margin-top: 25px;
+  .title__habilidades {
+    text-align: center;
+    font-weight: $textnegrita;
+    font-family: $textfuente;
+  }
+  .title__habilidades:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  img {
+    @include sizes(100px, 100px);
+    text-align: center;
+    margin: 5px;
+  }
+  img:hover {
+    animation-name: animacionimgsectionhabilidades;
+    animation-duration: 1s;
+  }
+  @keyframes animacionimgsectionhabilidades {
+    0% {
+      transform: rotateZ(360deg);
+    }
+  }
+  .row {
+    text-align: center;
+  }
+}
