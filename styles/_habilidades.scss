@@ -5,12 +5,15 @@
   .title__habilidades {
     text-align: center;
     font-weight: $textnegrita;
-    font-family: $textfuente;
   }
   .title__habilidades:hover {
     color: black;
     text-decoration: underline;
   }
+    span{
+      font-weight: $textnegrita;
+    }
+    
   img {
     @include sizes(100px, 100px);
     text-align: center;

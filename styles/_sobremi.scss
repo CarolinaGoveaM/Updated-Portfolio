@@ -19,7 +19,6 @@
   }
   .title__sobremi {
     font-weight: $textnegrita;
-    font-family: $textfuente;
     margin-top: 30px;
     animation-name: animacionh2mainsobremi;
     animation-duration: 1s;
@@ -35,8 +34,6 @@
     text-decoration: underline;
   }
   p {
-    font-weight: $textnegrita;
-    font-family: $textfuente;
     text-align: center;
     animation-name: animacionpmainsobremi;
     animation-duration: 1s;
@@ -53,8 +50,6 @@
     animation-duration: 3s;
     a {
       color: black;
-      font-weight: $textnegrita;
-      font-family: $textfuente;
       text-decoration: none;
       font-size: 1.2rem;
     }

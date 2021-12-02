@@ -5,7 +5,6 @@
   .title__contacto {
     text-align: center;
     font-weight: $textnegrita;
-    font-family: $textfuente;
   }
   .title__contacto:hover {
     color: black;
@@ -14,8 +13,6 @@
   a {
     text-decoration: none;
     color: black;
-    font-family: $textfuente;
-    font-weight: $textnegrita;
   }
   a:hover {
     color: rgb(73, 145, 161);
@@ -23,13 +20,13 @@
   .imagen__ws {
     @include sizes(20px, 20px);
     position: absolute;
-    margin-left: -100px;
+    margin-left: -120px;
   }
   .imagen__mail {
     @include sizes(20px, 20px);
     position: absolute;
     margin-top: 26px;
-    margin-left: -107px;
+    margin-left: -127px;
   }
   .imagen__linkedin {
     @include sizes(20px, 20px);

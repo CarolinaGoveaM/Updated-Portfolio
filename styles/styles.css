@@ -4,12 +4,11 @@
   box-sizing: border-box; }
 
 body {
-  font-family: "Dosis", sans-serif, Arial, Helvetica;
+  font-family: "Roboto", sans-serif;
   background: linear-gradient(90deg, #f9d5ef 41%, #f4d7f2 47%, #c9eaf1 65%); }
 
 .header .title__header {
   color: #f5b6e3;
-  font-weight: bold;
   line-height: 0; }
 
 .header .title__header--index {
@@ -56,7 +55,6 @@ body {
     transform: scale(1.1, 1.1); }
   .main__sobremi .title__sobremi {
     font-weight: bold;
-    font-family: "Indie Flower", cursive;
     margin-top: 30px;
     animation-name: animacionh2mainsobremi;
     animation-duration: 1s;
@@ -69,8 +67,6 @@ body {
     color: black;
     text-decoration: underline; }
   .main__sobremi p {
-    font-weight: bold;
-    font-family: "Indie Flower", cursive;
     text-align: center;
     animation-name: animacionpmainsobremi;
     animation-duration: 1s; }
@@ -85,8 +81,6 @@ body {
     animation-duration: 3s; }
     .main__sobremi .link__curriculo a {
       color: black;
-      font-weight: bold;
-      font-family: "Indie Flower", cursive;
       text-decoration: none;
       font-size: 1.2rem; }
 
@@ -100,11 +94,12 @@ body {
   margin-top: 25px; }
   .section__habilidades .title__habilidades {
     text-align: center;
-    font-weight: bold;
-    font-family: "Indie Flower", cursive; }
+    font-weight: bold; }
   .section__habilidades .title__habilidades:hover {
     color: black;
     text-decoration: underline; }
+  .section__habilidades span {
+    font-weight: bold; }
   .section__habilidades img {
     height: 100px;
     width: 100px;
@@ -125,16 +120,13 @@ body {
   .section__proyectos .title__proyectos {
     text-align: center;
     font-weight: bold;
-    margin-bottom: 10px;
-    font-family: "Indie Flower", cursive; }
+    margin-bottom: 10px; }
   .section__proyectos .title__proyectos:hover {
     color: black;
     text-decoration: underline; }
   .section__proyectos p {
     margin: auto;
-    font-weight: bold;
-    text-align: center;
-    font-family: "Indie Flower", cursive; }
+    text-align: center; }
 
 .section__proyectos--card {
   margin-top: 35px;
@@ -159,29 +151,26 @@ body {
   margin-top: 35px; }
   .section__contacto .title__contacto {
     text-align: center;
-    font-weight: bold;
-    font-family: "Indie Flower", cursive; }
+    font-weight: bold; }
   .section__contacto .title__contacto:hover {
     color: black;
     text-decoration: underline; }
   .section__contacto a {
     text-decoration: none;
-    color: black;
-    font-family: "Indie Flower", cursive;
-    font-weight: bold; }
+    color: black; }
   .section__contacto a:hover {
     color: #4991a1; }
   .section__contacto .imagen__ws {
     height: 20px;
     width: 20px;
     position: absolute;
-    margin-left: -100px; }
+    margin-left: -120px; }
   .section__contacto .imagen__mail {
     height: 20px;
     width: 20px;
     position: absolute;
     margin-top: 26px;
-    margin-left: -107px; }
+    margin-left: -127px; }
   .section__contacto .imagen__linkedin {
     height: 20px;
     width: 20px;
